@@ -1,0 +1,33 @@
+{
+    "name": "roseo/laravel-special-helpers",
+    "description": "A Special lib for laravel helpers",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "php",
+        "helpers",
+        "special"
+      ],
+    "authors": [
+        {
+            "name": "Eduardo Roseo",
+            "email": "eduardoroseo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Helpers/number.php"
+        ]
+    }, 
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
