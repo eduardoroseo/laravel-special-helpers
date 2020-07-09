@@ -22,7 +22,8 @@
     },
     "autoload": {
         "files": [
-            "src/Helpers/number.php"
+            "src/Helpers/number.php",
+            "src/Helpers/background.php"
         ]
     }, 
     "extra": {
