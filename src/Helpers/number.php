@@ -24,6 +24,6 @@ if (!function_exists('onlyNumberAndLetters')) {
      */
     function onlyNumberAndLetters(string $word)
     {
-        return str_replace(['(', ')', '-', ' ', '.', '+','*'], '', $word);
+        return preg_replace('/^[a-z0-9]+$/', '', $word);
     }
 }
